@@ -1,9 +1,6 @@
 lockfileVersion: '6.0'
 
 dependencies:
-  '@pencil.js/spritesheet':
-    specifier: ^1.5.1
-    version: 1.5.1
   bin-pack:
     specifier: ^1.0.2
     version: 1.0.2
@@ -189,17 +186,6 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
     dev: true
-
-  /@pencil.js/spritesheet@1.5.1:
-    resolution: {integrity: sha512-TqDuIJxBRvhboE8ttwX6zkz8hiiSoO5k7KqVTSLMGv7hefBT797hs3PU6Ozn4ZpaDw3a3AxEUMuuqz6oiAdhWg==}
-    dependencies:
-      bin-pack: 1.0.2
-      canvas: 2.11.2
-      detect-edges: 1.1.0
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
-    dev: false
 
   /@types/bin-pack@1.0.1:
     resolution: {integrity: sha512-f7FM9X/h0MHUORA1DnTHroiNn6/CZXyxP++mwrc6ZuhuAJzcrg7MQA77htmkGraelwgizcYgwPe9/7tLYGRm+A==}
@@ -769,10 +755,6 @@ packages:
 
   /delegates@1.0.0:
     resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==}
-    dev: false
-
-  /detect-edges@1.1.0:
-    resolution: {integrity: sha512-zUiQIdIWMEtmmeL+yPirkQ0nGHI5+GFguXCnBV4WgViROrCJAJ0iLua2istS7P72qPqXthctzS5GDMI+5jlqDQ==}
     dev: false
 
   /detect-libc@2.0.1:

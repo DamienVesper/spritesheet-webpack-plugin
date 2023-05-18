@@ -36,14 +36,13 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@pencil.js/spritesheet": "^1.5.1",
     "bin-pack": "^1.0.2",
     "canvas": "^2.11.2",
     "minimatch": "^9.0.0",
     "webpack": "^5.83.1"
   },
   "peerDependencies": {
-    "webpack": "^5.82.1"
+    "webpack": "^>=5.80.0"
   },
   "files": [
     "dist",
