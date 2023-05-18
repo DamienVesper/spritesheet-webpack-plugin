@@ -8,6 +8,7 @@
     <img src="https://img.shields.io/github/last-commit/DamienVesper/spritesheet-webpack-plugin?style=for-the-badge&color=f82055">
     <img src="https://img.shields.io/github/languages/code-size/DamienVesper/spritesheet-webpack-plugin?style=for-the-badge&color=f82055">
 </div>
+<hr>
 
 Built using [@pencil.js/spritesheet](https://github.com/pencil-js/spritesheet) and [detect-edges](https://github.com/GMartigny/detect-edges).
 
