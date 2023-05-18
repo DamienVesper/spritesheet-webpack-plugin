@@ -1,0 +1,54 @@
+{
+  "name": "spritesheet-webpack-plugin",
+  "version": "0.0.1",
+  "description": "A Webpack plugin that generates spritesheets on-the-fly.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev:lint": "eslint . --fix --ext .ts,.js",
+    "dev:lint:ci": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "spritesheet",
+    "webpack",
+    "nodejs"
+  ],
+  "author": {
+    "name": "DamienVesper",
+    "email": "ldamienvesper@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/DamienVesper/spritesheet-webpack-plugin",
+  "devDependencies": {
+    "@types/bin-pack": "^1.0.1",
+    "@types/minimatch": "^5.1.2",
+    "@types/node": "^20.2.1",
+    "@types/webpack": "^5.28.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.40.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "tslib": "^2.5.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@pencil.js/spritesheet": "^1.5.1",
+    "bin-pack": "^1.0.2",
+    "canvas": "^2.11.2",
+    "minimatch": "^9.0.0",
+    "webpack": "^5.83.1"
+  },
+  "peerDependencies": {
+    "webpack": "^5.82.1"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
